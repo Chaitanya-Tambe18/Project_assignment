@@ -1,0 +1,31 @@
+================================================================================
+PAYMENTS RECONCILIATION & ANOMALY DETECTION REPORT
+================================================================================
+Generated: 2026-05-27 23:31:49
+Reconciliation Period: January 2026
+
+EXECUTIVE SUMMARY
+--------------------------------------------------------------------------------
+Total Transactions Processed: 201
+Successfully Matched: 136 (67.7%)
+Anomalies Detected: 9
+Anomaly Categories: 3
+
+DATASET STATISTICS
+--------------------------------------------------------------------------------
+Matched Transactions: 136
+Missing Settlements: 0
+Cross-Month Settlements: 7
+Duplicate Entries: 1
+Orphan Refunds: 1
+Pending Transactions: 56
+
+RECOMMENDATIONS
+--------------------------------------------------------------------------------
+1. CROSS-MONTH TIMING: 7 transactions settled in next month. Implement carry-forward logic or adjust reconciliation period.
+2. DUPLICATE ENTRY: 1 transactions have duplicate settlements. Review settlement records and remove duplicates to prevent double-counting.
+3. ORPHAN REFUND: 1 refunds reference non-existent transactions. Investigate data integrity issues and correct transaction references.
+
+================================================================================
+END OF REPORT
+================================================================================
